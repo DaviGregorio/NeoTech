@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        @charset "UTF-8";
+
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;700;900&display=swap');
+
+        :root {
+            --font-1:Helvetica, sans-serif;
+            --font-2: 'Noto Sans KR', sans-serif;
+        }
+        body {
+            background-image: linear-gradient(to left, #366df7, #172133);
+            font-family:Helvetica, sans-serif;
+            position: relative;
+        }
+        main {
+            background-color: #ffffff;
+            width: 450px;
+            height: 500px;
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            margin-right: -225px;
+            margin-bottom: -250px;
+            margin-top: 79px;
+            box-shadow: 2px 4px 8px 0px rgb(0 0 0 / 43%);
+            border-radius: 17px;
+        }
+        h1 {
+            text-align: center;
+            font-family: var(--font-2);
+            font-weight: bolder;
+            font-size: 3.5em;
+            margin-top: 36px;
+        }
+        div#login{
+            position: relative;
+            top: 33px;
+            left: 112px;
+            height: 43px;
+        }
+        div#senha{
+            position: relative;
+            top: 65px;
+            left: 112px;
+        }
+        label {
+            font-family: var(--font-2);
+            font-weight: bold;
+            position: relative;
+            left: 87px;
+            top: -10px;
+        }
+        input {
+            display: block;
+            width: 223px;
+            height: 21px;
+            border-radius: 10px;
+            border-color: rgba(0, 0, 0, 0.192);
+        }
+        button {
+            position: relative;
+            top: 84px;
+            left: 179px;
+            height: 27px;
+            border: 0;
+            background-color: white;
+        }
+        input#botao {
+            border-radius: 25px;
+            width: 84px;
+            background-color: #f1f1f1e8;
+            text-align: center;
+        }
+        button#cadastro {
+            position: relative;
+            top: 172px;
+            left: 73px;
+            height: 27px;
+            border: 0;
+            background-color: white;
+        }
+        input#cadastro {
+            border-radius: 25px;
+            width: 100px;
+            background-color: #f1f1f1e8;
+            text-align: center;
+        }
+        hr {
+            position: relative;
+            top: 100px;
+            width: 362px;
+       }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Login</h1>
+        <form action="">
+            <div id="login">
+                <label>Usuário:</label>
+                <input type="text" name="usuario" value="" required>
+            </div>
+            <div id="senha">
+                <label>Senha:</label>
+                <input type="password" name="senha" value="" required> 
+            </div>
+            <button onclick="">
+                <input type="submit" value="Entrar" id="botao">
+            </button>
+            <button id="cadastro" onclick="">
+                <input type="submit" value="Cadastre-se" id="cadastro">
+            </button>
+        </form>
+        <hr>
+    </main>
+</body>
+</html>

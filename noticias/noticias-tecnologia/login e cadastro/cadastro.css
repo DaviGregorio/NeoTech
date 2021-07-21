@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;700;900&display=swap');
+
+:root {
+    --font-1:Helvetica, sans-serif;
+    --font-2: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #7094ee, #173163);
+    position: relative;
+}
+main {
+    background-color: white;
+    height: 475px;
+    width: 847px;
+    margin-left: -7px;
+    margin-top: -20px;
+    border-radius: 10px;
+    box-shadow: 0px -1px 5px 1px grey;
+    position:absolute;
+    top: 140px;
+    right: 37%;
+    margin-right: -235px;
+    margin-bottom: -425px;
+
+}
+fieldset {
+    width: 0px;
+    border-radius: 20px;
+    border-color: #81a3f986;
+}
+fieldset#nome {
+    margin-bottom: 20px;
+    position: relative;
+    left: 20px;
+    top: -17px;
+}
+fieldset#usuario {
+    margin-bottom: 20px;
+    position: relative;
+    left: 20px;
+    top: -18px;
+}
+h1 {
+    text-align: top left;
+    position: relative;
+    top:-15px;
+    left: 25px;
+    font-family: var(--font-2);
+    font-weight: bolder;
+    font-size: 45px;
+}
+label {
+    position: relative;
+    font-family: var(--font-1);
+    font-size: 17px;
+    font-weight:normal;
+    left: 9px;
+}
+div {
+    margin-bottom: 14px;
+    width: 300px;
+}
+input {
+    display: block;
+    width: 283px;
+    border-radius: 5px;
+    border-color: #81a3f938;
+    height: 20px;
+}
+button#login {
+    position: relative;
+    background-color: #81a3f938;
+    border-color: white;
+    top: -22px;
+    left: 76px;
+    border-radius: 15px;
+    border: 0;
+}
+input#login {
+    background-color: #81a3f925;
+    border-color: white;
+    height: 1.8em;
+    font-weight: normal;
+    font-family: var(--font-2);
+    width: 200px;
+}
+aside {
+    position: relative;
+    height: 475px;
+    width: 431px;
+    left: 416px;
+    top: -490px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #080606be;
+}
+aside > h2 {
+    color: rgba(243, 243, 243, 0.616);
+    text-align: center;
+    font-family: var(--font-2);
+    position: relative;
+    top: 180px;
+    font-weight: bolder;
+}
+aside > p {
+    color: rgba(243, 243, 243, 0.616);
+    text-align: center;
+    font-family: var(--font-2);
+    position: relative;
+    top: 184px;
+}
+aside > button {
+    background-color: #08060600;
+    border-color: #0806065d;
+    border: 0;
+    position: relative;
+    left: 120px;
+    top: 243px;
+}
+aside > button > input {
+    background-color: #81a3f925;
+    border-color: rgba(255, 255, 255, 0.253);
+    height: 2.2em;
+    font-weight: normal;
+    font-family: var(--font-2);
+    width: 200px;
+    color: white;
+}
