@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #7094ee, #173163);
+    background-color: #289BB8;
     position: relative;
 }
 main {
@@ -72,16 +72,17 @@ input {
 }
 button#login {
     position: relative;
-    background-color: #81a3f938;
-    border-color: white;
+    background-color: #08060600;
+    border-color: #0806065d;
+    border: 0;
     top: -22px;
     left: 76px;
     border-radius: 15px;
     border: 0;
 }
 input#login {
-    background-color: #81a3f925;
-    border-color: white;
+    background-color: #81a3f94b;
+    border-color: rgba(255, 255, 255, 0.226);
     height: 1.8em;
     font-weight: normal;
     font-family: var(--font-2);
