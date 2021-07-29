@@ -1,0 +1,77 @@
+@charset 'UTF-8';
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap");
+
+@font-face {
+  font-family: "Tech";
+  src: url("../fonts/Technotot.otf") format("opentype");
+}
+
+:root {
+  --lightblue: #9fd6f5;
+  --darkblue: #003471;
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  position: relative;
+  background: var(--lightblue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-brand {
+  font-family: "Tech";
+  font-size: 57px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--darkblue);
+}
+
+.main-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-navbar .nav-link {
+  margin: 6px 6px;
+}
+
+header {
+  padding: 20px;
+}
+
+main {
+  background: white;
+  margin: 20px 0;
+  padding: 32px;
+}
+
+h1 {
+  color: var(--darkblue);
+  font-family: "Rajdhani", sans-serif;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  font-size: 59px;
+  font-weight: bolder;
+}
+
+input {
+  color: #019bf0;
+  display: block;
+  width: 223px;
+  height: 21px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.192);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
