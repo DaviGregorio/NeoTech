@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>NeoTech - Cadastro</title>
+    <link rel="shortcut icon" href="../site/Elegantthemes-Beautiful-Flat-Barchart.ico" type="image/x-icon">
     <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
@@ -13,34 +14,38 @@
         <form action="" method="get">
             <fieldset id="nome">
                 <div>
-                    <label for="">Nome</label>
+                    <label for="">Nome:</label>
                     <input type="text" name="nome" required>
                 </div>
                 <div>
-                    <label for="">E-mail</label>
+                    <label for="">E-mail:</label>
                     <input type="email" name="email">
                 </div>
             </fieldset>
             <fieldset id="usuario">
                 <div>
-                    <label for="">Usuário</label>
+                    <label for="">Usuário:</label>
                     <input type="text" name="usuario" required>
                 </div>
                 <div>
-                    <label for="">Senha</label>
+                    <label for="">Senha:</label>
                     <input type="password" name="senha" required>
                 </div>
             </fieldset>
-            <button id="login">
-                <input type="submit" value="Criar conta." id="login">
-            </button>
         </form>
+            <a href="../login/login.html">
+                <button id="login">
+                    <input type="submit" value="Criar conta." id="login">
+                </button>
+            </a>
         <aside id="bemvindo">
             <h2>Bem-vindo.</h2>
             <p>Você já está cadastrado?</p>
-            <button>
-                <input type="submit" value="Fazer login">
-            </button>
+            <a href="../login/login.html">
+                <button>
+                    <input type="submit" value="Fazer login">
+                </button>
+            </a>
         </aside>
     </main>
 </body>
