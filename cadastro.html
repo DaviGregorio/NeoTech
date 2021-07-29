@@ -5,45 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NeoTech - Cadastro</title>
-    <link rel="shortcut icon" href="../site/Elegantthemes-Beautiful-Flat-Barchart.ico" type="image/x-icon">
-    <link rel="stylesheet" href="cadastro.css">
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Elegantthemes-Beautiful-Flat-Barchart.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 <body>
-    <main>
-        <h1>Crie sua conta</h1>
-        <form action="" method="get">
-            <fieldset id="nome">
-                <div>
-                    <label for="">Nome:</label>
-                    <input type="text" name="nome" required>
+    <header class="header-login">
+        <a href="index.html" class="navbar-brand">NeoTech</a>
+        <nav class="main-navbar">
+          <a href="login.html" class="nav-link">Login</a>
+        </nav>
+    </header>
+    <main class="main-cadastro">
+        <h1 class="main-titulo-cadastro">Crie sua conta</h1>
+        <form action="" method="get" class="form-cadastro">
+            <fieldset class="fieldset">
+                <div class="space-cadastro">
+                    <label for="" class="label">Nome:</label>
+                    <input type="text" name="nome" required class="input">
                 </div>
-                <div>
-                    <label for="">E-mail:</label>
-                    <input type="email" name="email">
-                </div>
-            </fieldset>
-            <fieldset id="usuario">
-                <div>
-                    <label for="">Usuário:</label>
-                    <input type="text" name="usuario" required>
-                </div>
-                <div>
-                    <label for="">Senha:</label>
-                    <input type="password" name="senha" required>
+                <div class="space-cadastro">
+                    <label for="" class="label">E-mail:</label>
+                    <input type="email" name="email" class="input">
                 </div>
             </fieldset>
-        </form>
-            <a href="../login/login.html">
-                <button id="login">
-                    <input type="submit" value="Criar conta." id="login">
+            <fieldset class="fieldset">
+                <div class="space-cadastro">
+                    <label for="" class="label">Usuário:</label>
+                    <input type="text" name="usuario" required class="input">
+                </div>
+                <div class="space-cadastro">
+                    <label for="" class="label">Senha:</label>
+                    <input type="password" name="senha" required class="input">
+                </div>
+            </fieldset>
+            <a href="login.html" class="link">
+                <button class="button-cadastro">
+                    <input type="submit" value="Criar conta." class="input">
                 </button>
             </a>
-        <aside id="bemvindo">
-            <h2>Bem-vindo.</h2>
-            <p>Você já está cadastrado?</p>
-            <a href="../login/login.html">
-                <button>
-                    <input type="submit" value="Fazer login">
+        </form>
+        <aside class="aside">
+            <h2 class="aside-subtitulo">Bem-vindo.</h2>
+            <p class="aside-paragrafo">Você já está cadastrado?</p>
+            <a href="login.html" class="aside-link">
+                <button class="aside-button">
+                    <input type="submit" value="Fazer login" class="aside-input">
                 </button>
             </a>
         </aside>
